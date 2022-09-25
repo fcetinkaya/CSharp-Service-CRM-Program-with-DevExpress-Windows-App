@@ -15,7 +15,7 @@ Those who want to improve themselves on Windows desktop application by using C #
 
 
 ## Screenshots
-![Example screenshot](CustomerCRM_MainScreen.JPG)
+![Example screenshot](CustomerCRM_MainScreen.jpg)
 
 
 ## Projects
