@@ -1,0 +1,30 @@
+2018-04-24 00:00:04.3731 INFO 0 Anamenü Açýlýþ
+2018-04-24 00:00:04.3872 ERROR System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'user47AE211B84'.
+   konum: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   konum: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   konum: System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: Hizmet_MusMemnuniyet.Tools.OptimusPrime.OptimusGeliyorKacin() D:\FTH\Project\Windows\Hizmet Müþteri Memnuiyet Yönetimi\Hizmet Müþteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Hizmet_MusMemnuniyet\Tools\OptimusPrime.cs içinde: satýr 22
+   konum: Hizmet_MusMemnuniyet.frmAnamenu.frmAnamenu_Load(Object sender, EventArgs e) D:\FTH\Project\Windows\Hizmet Müþteri Memnuiyet Yönetimi\Hizmet Müþteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Hizmet_MusMemnuniyet\frmAnamenu.cs içinde: satýr 52
+ClientConnectionId:b772ae9f-c5d3-426f-aa36-63efd394c35a
+Error Number:18456,State:1,Class:14
+2018-04-24 00:01:34.3435 INFO 0 Güncelleme Ýþlemi
+2018-04-24 00:01:34.3551 ERROR Ionic.Zip.ZipException: Cannot read that as a ZipFile ---> Ionic.Zip.BadReadException: Could not read block - no data!  (position 0x00000000)
+   konum: Ionic.Zip.SharedUtilities._ReadFourBytes(Stream s, String message)
+   konum: Ionic.Zip.SharedUtilities.ReadInt(Stream s)
+   konum: Ionic.Zip.ZipFile.ReadFirstFourBytes(Stream s)
+   konum: Ionic.Zip.ZipFile.ReadIntoInstance(ZipFile zf)
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: Ionic.Zip.ZipFile.ReadIntoInstance(ZipFile zf)
+   konum: Ionic.Zip.ZipFile.Read(String fileName, TextWriter statusMessageWriter, Encoding encoding, EventHandler`1 readProgress)
+   konum: Ionic.Zip.ZipFile.Read(String fileName)
+   konum: Hizmet_MusMemnuniyet.Guncelleme.frmGuncelle.ProgramGuncelleBtn_Click(Object sender, EventArgs e) D:\FTH\Project\Windows\Hizmet Müþteri Memnuiyet Yönetimi\Hizmet Müþteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Hizmet_MusMemnuniyet\Guncelleme\frmGuncelle.cs içinde: satýr 84

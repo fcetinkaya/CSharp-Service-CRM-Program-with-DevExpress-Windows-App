@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HizmetData.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="HizmetDataStoreContainer">
+    <EntitySet Name="HizmetCRM_AnaKategori" EntityType="HizmetData.Store.HizmetCRM_AnaKategori" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="HizmetCRM_Hizmetler" EntityType="HizmetData.Store.HizmetCRM_Hizmetler" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="HizmetCRM_Kategori" EntityType="HizmetData.Store.HizmetCRM_Kategori" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="HizmetCRM_Kullanicilar" EntityType="HizmetData.Store.HizmetCRM_Kullanicilar" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="HizmetCRM_Loglar" EntityType="HizmetData.Store.HizmetCRM_Loglar" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="HizmetCRM_Musteriler" EntityType="HizmetData.Store.HizmetCRM_Musteriler" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="HizmetCRM_Personel" EntityType="HizmetData.Store.HizmetCRM_Personel" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="HizmetCRM_ServisOlumlu" EntityType="HizmetData.Store.HizmetCRM_ServisOlumlu" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="HizmetCRM_ServisOlumsuz" EntityType="HizmetData.Store.HizmetCRM_ServisOlumsuz" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="HizmetCRM_Subeler" EntityType="HizmetData.Store.HizmetCRM_Subeler" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="HizmetCRM_YeniAnket" EntityType="HizmetData.Store.HizmetCRM_YeniAnket" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sysdiagrams" EntityType="HizmetData.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_HizmetCRM_Loglar_HizmetCRM_Kullanicilar" Association="HizmetData.Store.FK_HizmetCRM_Loglar_HizmetCRM_Kullanicilar">
+      <End Role="HizmetCRM_Kullanicilar" EntitySet="HizmetCRM_Kullanicilar" />
+      <End Role="HizmetCRM_Loglar" EntitySet="HizmetCRM_Loglar" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HizmetCRM_Personel_HizmetCRM_Subeler" Association="HizmetData.Store.FK_HizmetCRM_Personel_HizmetCRM_Subeler">
+      <End Role="HizmetCRM_Subeler" EntitySet="HizmetCRM_Subeler" />
+      <End Role="HizmetCRM_Personel" EntitySet="HizmetCRM_Personel" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HizmetCRM_ServisOlumlu_HizmetCRM_Kategori" Association="HizmetData.Store.FK_HizmetCRM_ServisOlumlu_HizmetCRM_Kategori">
+      <End Role="HizmetCRM_Kategori" EntitySet="HizmetCRM_Kategori" />
+      <End Role="HizmetCRM_ServisOlumlu" EntitySet="HizmetCRM_ServisOlumlu" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HizmetCRM_ServisOlumsuz_HizmetCRM_AnaKategori" Association="HizmetData.Store.FK_HizmetCRM_ServisOlumsuz_HizmetCRM_AnaKategori">
+      <End Role="HizmetCRM_AnaKategori" EntitySet="HizmetCRM_AnaKategori" />
+      <End Role="HizmetCRM_ServisOlumsuz" EntitySet="HizmetCRM_ServisOlumsuz" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HizmetCRM_YeniAnket_HizmetCRM_Hizmetler" Association="HizmetData.Store.FK_HizmetCRM_YeniAnket_HizmetCRM_Hizmetler">
+      <End Role="HizmetCRM_Hizmetler" EntitySet="HizmetCRM_Hizmetler" />
+      <End Role="HizmetCRM_YeniAnket" EntitySet="HizmetCRM_YeniAnket" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HizmetCRM_YeniAnket_HizmetCRM_Hizmetler1" Association="HizmetData.Store.FK_HizmetCRM_YeniAnket_HizmetCRM_Hizmetler1">
+      <End Role="HizmetCRM_Hizmetler" EntitySet="HizmetCRM_Hizmetler" />
+      <End Role="HizmetCRM_YeniAnket" EntitySet="HizmetCRM_YeniAnket" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HizmetCRM_YeniAnket_HizmetCRM_Musteriler" Association="HizmetData.Store.FK_HizmetCRM_YeniAnket_HizmetCRM_Musteriler">
+      <End Role="HizmetCRM_Musteriler" EntitySet="HizmetCRM_Musteriler" />
+      <End Role="HizmetCRM_YeniAnket" EntitySet="HizmetCRM_YeniAnket" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HizmetCRM_YeniAnket_HizmetCRM_Personel" Association="HizmetData.Store.FK_HizmetCRM_YeniAnket_HizmetCRM_Personel">
+      <End Role="HizmetCRM_Personel" EntitySet="HizmetCRM_Personel" />
+      <End Role="HizmetCRM_YeniAnket" EntitySet="HizmetCRM_YeniAnket" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HizmetCRM_YeniAnket_HizmetCRM_Personel1" Association="HizmetData.Store.FK_HizmetCRM_YeniAnket_HizmetCRM_Personel1">
+      <End Role="HizmetCRM_Personel" EntitySet="HizmetCRM_Personel" />
+      <End Role="HizmetCRM_YeniAnket" EntitySet="HizmetCRM_YeniAnket" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HizmetCRM_YeniAnket_HizmetCRM_Subeler" Association="HizmetData.Store.FK_HizmetCRM_YeniAnket_HizmetCRM_Subeler">
+      <End Role="HizmetCRM_Subeler" EntitySet="HizmetCRM_Subeler" />
+      <End Role="HizmetCRM_YeniAnket" EntitySet="HizmetCRM_YeniAnket" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="HizmetCRM_AnaKategori">
+    <Key>
+      <PropertyRef Name="AnaKategoriID" />
+    </Key>
+    <Property Name="AnaKategoriID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AnaAd" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="HizmetCRM_Hizmetler">
+    <Key>
+      <PropertyRef Name="HizmetID" />
+    </Key>
+    <Property Name="HizmetID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HizmetAdi" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="HizmetCRM_Kategori">
+    <Key>
+      <PropertyRef Name="KategoriID" />
+    </Key>
+    <Property Name="KategoriID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Ad" Type="nvarchar" MaxLength="50" />
+    <Property Name="AnaKategoriID" Type="int" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="HizmetCRM_Kullanicilar">
+    <Key>
+      <PropertyRef Name="KullaniciID" />
+    </Key>
+    <Property Name="KullaniciID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AdSoyad" Type="nvarchar" MaxLength="150" />
+    <Property Name="KullaniciAdi" Type="nvarchar" MaxLength="150" />
+    <Property Name="Sifre" Type="nvarchar" MaxLength="150" />
+    <Property Name="AnaKullanici" Type="bit" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="HizmetCRM_Loglar">
+    <Key>
+      <PropertyRef Name="LogID" />
+    </Key>
+    <Property Name="LogID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Aciklama" Type="nvarchar" MaxLength="250" />
+    <Property Name="Modul" Type="nvarchar" MaxLength="30" />
+    <Property Name="KullaniciID" Type="int" />
+    <Property Name="Tarih" Type="datetime" />
+  </EntityType>
+  <EntityType Name="HizmetCRM_Musteriler">
+    <Key>
+      <PropertyRef Name="MusteriID" />
+    </Key>
+    <Property Name="MusteriID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AdSoyad" Type="nvarchar" MaxLength="150" />
+    <Property Name="Meslek" Type="nvarchar" MaxLength="150" />
+    <Property Name="CepTlf" Type="nvarchar" MaxLength="150" />
+    <Property Name="SabitTlf" Type="nvarchar" MaxLength="150" />
+    <Property Name="Adres" Type="nvarchar" MaxLength="250" />
+    <Property Name="Eposta" Type="nvarchar" MaxLength="150" />
+    <Property Name="DogumTarihi" Type="nvarchar" MaxLength="10" />
+    <Property Name="Dogum" Type="bit" />
+    <Property Name="DogumAy" Type="tinyint" />
+    <Property Name="DogumGun" Type="tinyint" />
+    <Property Name="EvlilikTarihi" Type="nvarchar" MaxLength="10" />
+    <Property Name="Evlilik" Type="bit" />
+    <Property Name="EvlilikAy" Type="tinyint" />
+    <Property Name="EvlilikGun" Type="tinyint" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="HizmetCRM_Personel">
+    <Key>
+      <PropertyRef Name="PersonID" />
+    </Key>
+    <Property Name="PersonID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PersonelAdi" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="SubeID" Type="int" />
+  </EntityType>
+  <EntityType Name="HizmetCRM_ServisOlumlu">
+    <Key>
+      <PropertyRef Name="KategoriOlumluID" />
+    </Key>
+    <Property Name="KategoriOlumluID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AnketID" Type="int" />
+    <Property Name="KategoriID" Type="int" />
+  </EntityType>
+  <EntityType Name="HizmetCRM_ServisOlumsuz">
+    <Key>
+      <PropertyRef Name="KategoriOlumsuzID" />
+    </Key>
+    <Property Name="KategoriOlumsuzID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AnketID" Type="int" />
+    <Property Name="KategoriID" Type="int" />
+  </EntityType>
+  <EntityType Name="HizmetCRM_Subeler">
+    <Key>
+      <PropertyRef Name="SubeID" />
+    </Key>
+    <Property Name="SubeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SubeAdi" Type="nvarchar" MaxLength="150" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="HizmetCRM_YeniAnket">
+    <Key>
+      <PropertyRef Name="AnketID" />
+    </Key>
+    <Property Name="AnketID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AnketTarih" Type="datetime" />
+    <Property Name="AramaTarih" Type="datetime" />
+    <Property Name="Numara" Type="nvarchar" MaxLength="50" />
+    <Property Name="AnketYorumu" Type="nvarchar" MaxLength="500" />
+    <Property Name="AnketRaporu" Type="nvarchar" MaxLength="500" />
+    <Property Name="GorusmeSonucu" Type="nvarchar" MaxLength="50" />
+    <Property Name="UlasimSecenegi" Type="nvarchar" MaxLength="50" />
+    <Property Name="SubeID" Type="int" />
+    <Property Name="PersonID" Type="int" />
+    <Property Name="MusteriID" Type="int" />
+    <Property Name="HizmetID" Type="int" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK_HizmetCRM_Loglar_HizmetCRM_Kullanicilar">
+    <End Role="HizmetCRM_Kullanicilar" Type="HizmetData.Store.HizmetCRM_Kullanicilar" Multiplicity="0..1" />
+    <End Role="HizmetCRM_Loglar" Type="HizmetData.Store.HizmetCRM_Loglar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HizmetCRM_Kullanicilar">
+        <PropertyRef Name="KullaniciID" />
+      </Principal>
+      <Dependent Role="HizmetCRM_Loglar">
+        <PropertyRef Name="KullaniciID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HizmetCRM_Personel_HizmetCRM_Subeler">
+    <End Role="HizmetCRM_Subeler" Type="HizmetData.Store.HizmetCRM_Subeler" Multiplicity="0..1" />
+    <End Role="HizmetCRM_Personel" Type="HizmetData.Store.HizmetCRM_Personel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HizmetCRM_Subeler">
+        <PropertyRef Name="SubeID" />
+      </Principal>
+      <Dependent Role="HizmetCRM_Personel">
+        <PropertyRef Name="SubeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HizmetCRM_ServisOlumlu_HizmetCRM_Kategori">
+    <End Role="HizmetCRM_Kategori" Type="HizmetData.Store.HizmetCRM_Kategori" Multiplicity="0..1" />
+    <End Role="HizmetCRM_ServisOlumlu" Type="HizmetData.Store.HizmetCRM_ServisOlumlu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HizmetCRM_Kategori">
+        <PropertyRef Name="KategoriID" />
+      </Principal>
+      <Dependent Role="HizmetCRM_ServisOlumlu">
+        <PropertyRef Name="KategoriID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HizmetCRM_ServisOlumsuz_HizmetCRM_AnaKategori">
+    <End Role="HizmetCRM_AnaKategori" Type="HizmetData.Store.HizmetCRM_AnaKategori" Multiplicity="0..1" />
+    <End Role="HizmetCRM_ServisOlumsuz" Type="HizmetData.Store.HizmetCRM_ServisOlumsuz" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HizmetCRM_AnaKategori">
+        <PropertyRef Name="AnaKategoriID" />
+      </Principal>
+      <Dependent Role="HizmetCRM_ServisOlumsuz">
+        <PropertyRef Name="AnketID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HizmetCRM_YeniAnket_HizmetCRM_Hizmetler">
+    <End Role="HizmetCRM_Hizmetler" Type="HizmetData.Store.HizmetCRM_Hizmetler" Multiplicity="0..1" />
+    <End Role="HizmetCRM_YeniAnket" Type="HizmetData.Store.HizmetCRM_YeniAnket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HizmetCRM_Hizmetler">
+        <PropertyRef Name="HizmetID" />
+      </Principal>
+      <Dependent Role="HizmetCRM_YeniAnket">
+        <PropertyRef Name="HizmetID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HizmetCRM_YeniAnket_HizmetCRM_Hizmetler1">
+    <End Role="HizmetCRM_Hizmetler" Type="HizmetData.Store.HizmetCRM_Hizmetler" Multiplicity="0..1" />
+    <End Role="HizmetCRM_YeniAnket" Type="HizmetData.Store.HizmetCRM_YeniAnket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HizmetCRM_Hizmetler">
+        <PropertyRef Name="HizmetID" />
+      </Principal>
+      <Dependent Role="HizmetCRM_YeniAnket">
+        <PropertyRef Name="HizmetID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HizmetCRM_YeniAnket_HizmetCRM_Musteriler">
+    <End Role="HizmetCRM_Musteriler" Type="HizmetData.Store.HizmetCRM_Musteriler" Multiplicity="0..1" />
+    <End Role="HizmetCRM_YeniAnket" Type="HizmetData.Store.HizmetCRM_YeniAnket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HizmetCRM_Musteriler">
+        <PropertyRef Name="MusteriID" />
+      </Principal>
+      <Dependent Role="HizmetCRM_YeniAnket">
+        <PropertyRef Name="MusteriID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HizmetCRM_YeniAnket_HizmetCRM_Personel">
+    <End Role="HizmetCRM_Personel" Type="HizmetData.Store.HizmetCRM_Personel" Multiplicity="0..1" />
+    <End Role="HizmetCRM_YeniAnket" Type="HizmetData.Store.HizmetCRM_YeniAnket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HizmetCRM_Personel">
+        <PropertyRef Name="PersonID" />
+      </Principal>
+      <Dependent Role="HizmetCRM_YeniAnket">
+        <PropertyRef Name="PersonID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HizmetCRM_YeniAnket_HizmetCRM_Personel1">
+    <End Role="HizmetCRM_Personel" Type="HizmetData.Store.HizmetCRM_Personel" Multiplicity="0..1" />
+    <End Role="HizmetCRM_YeniAnket" Type="HizmetData.Store.HizmetCRM_YeniAnket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HizmetCRM_Personel">
+        <PropertyRef Name="PersonID" />
+      </Principal>
+      <Dependent Role="HizmetCRM_YeniAnket">
+        <PropertyRef Name="PersonID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HizmetCRM_YeniAnket_HizmetCRM_Subeler">
+    <End Role="HizmetCRM_Subeler" Type="HizmetData.Store.HizmetCRM_Subeler" Multiplicity="0..1" />
+    <End Role="HizmetCRM_YeniAnket" Type="HizmetData.Store.HizmetCRM_YeniAnket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HizmetCRM_Subeler">
+        <PropertyRef Name="SubeID" />
+      </Principal>
+      <Dependent Role="HizmetCRM_YeniAnket">
+        <PropertyRef Name="SubeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

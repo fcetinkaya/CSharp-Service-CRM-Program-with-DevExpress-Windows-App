@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="HizmetCRMModelStoreContainer" CdmEntityContainer="HizmetCRMEntities">
+    <EntitySetMapping Name="HizmetCRM_AnaKategori">
+      <EntityTypeMapping TypeName="HizmetCRMModel.HizmetCRM_AnaKategori">
+        <MappingFragment StoreEntitySet="HizmetCRM_AnaKategori">
+          <ScalarProperty Name="AnaKategoriID" ColumnName="AnaKategoriID" />
+          <ScalarProperty Name="AnaAd" ColumnName="AnaAd" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HizmetCRM_Hizmetler">
+      <EntityTypeMapping TypeName="HizmetCRMModel.HizmetCRM_Hizmetler">
+        <MappingFragment StoreEntitySet="HizmetCRM_Hizmetler">
+          <ScalarProperty Name="HizmetID" ColumnName="HizmetID" />
+          <ScalarProperty Name="HizmetAdi" ColumnName="HizmetAdi" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HizmetCRM_Kategori">
+      <EntityTypeMapping TypeName="HizmetCRMModel.HizmetCRM_Kategori">
+        <MappingFragment StoreEntitySet="HizmetCRM_Kategori">
+          <ScalarProperty Name="KategoriID" ColumnName="KategoriID" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="AnaKategoriID" ColumnName="AnaKategoriID" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HizmetCRM_Kullanicilar">
+      <EntityTypeMapping TypeName="HizmetCRMModel.HizmetCRM_Kullanicilar">
+        <MappingFragment StoreEntitySet="HizmetCRM_Kullanicilar">
+          <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+          <ScalarProperty Name="AdSoyad" ColumnName="AdSoyad" />
+          <ScalarProperty Name="KullaniciAdi" ColumnName="KullaniciAdi" />
+          <ScalarProperty Name="Sifre" ColumnName="Sifre" />
+          <ScalarProperty Name="AnaKullanici" ColumnName="AnaKullanici" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HizmetCRM_Loglar">
+      <EntityTypeMapping TypeName="HizmetCRMModel.HizmetCRM_Loglar">
+        <MappingFragment StoreEntitySet="HizmetCRM_Loglar">
+          <ScalarProperty Name="LogID" ColumnName="LogID" />
+          <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+          <ScalarProperty Name="Modul" ColumnName="Modul" />
+          <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+          <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HizmetCRM_Musteriler">
+      <EntityTypeMapping TypeName="HizmetCRMModel.HizmetCRM_Musteriler">
+        <MappingFragment StoreEntitySet="HizmetCRM_Musteriler">
+          <ScalarProperty Name="MusteriID" ColumnName="MusteriID" />
+          <ScalarProperty Name="AdSoyad" ColumnName="AdSoyad" />
+          <ScalarProperty Name="Meslek" ColumnName="Meslek" />
+          <ScalarProperty Name="CepTlf" ColumnName="CepTlf" />
+          <ScalarProperty Name="SabitTlf" ColumnName="SabitTlf" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+          <ScalarProperty Name="Eposta" ColumnName="Eposta" />
+          <ScalarProperty Name="DogumTarihi" ColumnName="DogumTarihi" />
+          <ScalarProperty Name="Dogum" ColumnName="Dogum" />
+          <ScalarProperty Name="DogumAy" ColumnName="DogumAy" />
+          <ScalarProperty Name="DogumGun" ColumnName="DogumGun" />
+          <ScalarProperty Name="EvlilikTarihi" ColumnName="EvlilikTarihi" />
+          <ScalarProperty Name="Evlilik" ColumnName="Evlilik" />
+          <ScalarProperty Name="EvlilikAy" ColumnName="EvlilikAy" />
+          <ScalarProperty Name="EvlilikGun" ColumnName="EvlilikGun" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HizmetCRM_Personel">
+      <EntityTypeMapping TypeName="HizmetCRMModel.HizmetCRM_Personel">
+        <MappingFragment StoreEntitySet="HizmetCRM_Personel">
+          <ScalarProperty Name="PersonID" ColumnName="PersonID" />
+          <ScalarProperty Name="PersonelAdi" ColumnName="PersonelAdi" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="SubeID" ColumnName="SubeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HizmetCRM_ServisOlumlu">
+      <EntityTypeMapping TypeName="HizmetCRMModel.HizmetCRM_ServisOlumlu">
+        <MappingFragment StoreEntitySet="HizmetCRM_ServisOlumlu">
+          <ScalarProperty Name="KategoriOlumluID" ColumnName="KategoriOlumluID" />
+          <ScalarProperty Name="AnketID" ColumnName="AnketID" />
+          <ScalarProperty Name="KategoriID" ColumnName="KategoriID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HizmetCRM_ServisOlumsuz">
+      <EntityTypeMapping TypeName="HizmetCRMModel.HizmetCRM_ServisOlumsuz">
+        <MappingFragment StoreEntitySet="HizmetCRM_ServisOlumsuz">
+          <ScalarProperty Name="KategoriOlumsuzID" ColumnName="KategoriOlumsuzID" />
+          <ScalarProperty Name="AnketID" ColumnName="AnketID" />
+          <ScalarProperty Name="KategoriID" ColumnName="KategoriID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HizmetCRM_Subeler">
+      <EntityTypeMapping TypeName="HizmetCRMModel.HizmetCRM_Subeler">
+        <MappingFragment StoreEntitySet="HizmetCRM_Subeler">
+          <ScalarProperty Name="SubeID" ColumnName="SubeID" />
+          <ScalarProperty Name="SubeAdi" ColumnName="SubeAdi" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HizmetCRM_YeniAnket">
+      <EntityTypeMapping TypeName="HizmetCRMModel.HizmetCRM_YeniAnket">
+        <MappingFragment StoreEntitySet="HizmetCRM_YeniAnket">
+          <ScalarProperty Name="AnketID" ColumnName="AnketID" />
+          <ScalarProperty Name="AnketTarih" ColumnName="AnketTarih" />
+          <ScalarProperty Name="AramaTarih" ColumnName="AramaTarih" />
+          <ScalarProperty Name="Numara" ColumnName="Numara" />
+          <ScalarProperty Name="AnketYorumu" ColumnName="AnketYorumu" />
+          <ScalarProperty Name="AnketRaporu" ColumnName="AnketRaporu" />
+          <ScalarProperty Name="GorusmeSonucu" ColumnName="GorusmeSonucu" />
+          <ScalarProperty Name="UlasimSecenegi" ColumnName="UlasimSecenegi" />
+          <ScalarProperty Name="SubeID" ColumnName="SubeID" />
+          <ScalarProperty Name="PersonID" ColumnName="PersonID" />
+          <ScalarProperty Name="MusteriID" ColumnName="MusteriID" />
+          <ScalarProperty Name="HizmetID" ColumnName="HizmetID" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Hizmetcrm_FormView">
+      <EntityTypeMapping TypeName="HizmetCRMModel.Hizmetcrm_FormView">
+        <MappingFragment StoreEntitySet="Hizmetcrm_FormView">
+          <ScalarProperty Name="KategoriID" ColumnName="KategoriID" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="AnaAd" ColumnName="AnaAd" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

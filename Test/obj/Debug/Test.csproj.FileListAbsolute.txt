@@ -1,0 +1,17 @@
+D:\FTH\Project\Windows\Hizmet Müşteri Memnuiyet Yönetimi\Hizmet Müşteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Test\bin\Debug\Test.exe.config
+D:\FTH\Project\Windows\Hizmet Müşteri Memnuiyet Yönetimi\Hizmet Müşteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Test\bin\Debug\Test.exe
+D:\FTH\Project\Windows\Hizmet Müşteri Memnuiyet Yönetimi\Hizmet Müşteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Test\bin\Debug\Test.pdb
+D:\FTH\Project\Windows\Hizmet Müşteri Memnuiyet Yönetimi\Hizmet Müşteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Test\bin\Debug\EntityFramework.dll
+D:\FTH\Project\Windows\Hizmet Müşteri Memnuiyet Yönetimi\Hizmet Müşteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Test\bin\Debug\EntityFramework.SqlServer.dll
+D:\FTH\Project\Windows\Hizmet Müşteri Memnuiyet Yönetimi\Hizmet Müşteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Test\bin\Debug\System.Data.SQLite.dll
+D:\FTH\Project\Windows\Hizmet Müşteri Memnuiyet Yönetimi\Hizmet Müşteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Test\bin\Debug\System.Data.SQLite.EF6.dll
+D:\FTH\Project\Windows\Hizmet Müşteri Memnuiyet Yönetimi\Hizmet Müşteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Test\bin\Debug\System.Data.SQLite.Linq.dll
+D:\FTH\Project\Windows\Hizmet Müşteri Memnuiyet Yönetimi\Hizmet Müşteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Test\bin\Debug\EntityFramework.xml
+D:\FTH\Project\Windows\Hizmet Müşteri Memnuiyet Yönetimi\Hizmet Müşteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Test\bin\Debug\EntityFramework.SqlServer.xml
+D:\FTH\Project\Windows\Hizmet Müşteri Memnuiyet Yönetimi\Hizmet Müşteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Test\bin\Debug\System.Data.SQLite.xml
+D:\FTH\Project\Windows\Hizmet Müşteri Memnuiyet Yönetimi\Hizmet Müşteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+D:\FTH\Project\Windows\Hizmet Müşteri Memnuiyet Yönetimi\Hizmet Müşteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Test\obj\Debug\Test.Form1.resources
+D:\FTH\Project\Windows\Hizmet Müşteri Memnuiyet Yönetimi\Hizmet Müşteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Test\obj\Debug\Test.Properties.Resources.resources
+D:\FTH\Project\Windows\Hizmet Müşteri Memnuiyet Yönetimi\Hizmet Müşteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Test\obj\Debug\Test.csproj.GenerateResource.Cache
+D:\FTH\Project\Windows\Hizmet Müşteri Memnuiyet Yönetimi\Hizmet Müşteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Test\obj\Debug\Test.exe
+D:\FTH\Project\Windows\Hizmet Müşteri Memnuiyet Yönetimi\Hizmet Müşteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Test\obj\Debug\Test.pdb

@@ -1,0 +1,9 @@
+2017-01-21 00:13:13.1779 INFO 12 Silme Ýþlemi, Form Giriþ Ýþlemi
+2017-01-21 00:13:13.2369 ERROR System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Hizmet_MusMemnuniyet.Formlar.frmFormGirisi.SilBtn_Click(Object sender, EventArgs e)
+2017-01-21 00:58:58.9171 INFO 12 Silme Ýþlemi, Form Giriþ Ýþlemi
+2017-01-21 00:58:58.9671 ERROR System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Hizmet_MusMemnuniyet.Formlar.frmFormGirisi.SilBtn_Click(Object sender, EventArgs e) D:\FTH\Project\WÝNDOWS\Kendim\Hizmet Müþteri Memnuiyet Yönetimi\Hizmet Müþteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Hizmet_MusMemnuniyet\Formlar\frmFormGirisi.cs içinde: satýr 266
+2017-01-21 00:59:30.1553 INFO 12 Silme Ýþlemi, Form Giriþ Ýþlemi
+2017-01-21 00:59:30.1553 ERROR System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Hizmet_MusMemnuniyet.Formlar.frmFormGirisi.SilBtn_Click(Object sender, EventArgs e) D:\FTH\Project\WÝNDOWS\Kendim\Hizmet Müþteri Memnuiyet Yönetimi\Hizmet Müþteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Hizmet_MusMemnuniyet\Formlar\frmFormGirisi.cs içinde: satýr 266

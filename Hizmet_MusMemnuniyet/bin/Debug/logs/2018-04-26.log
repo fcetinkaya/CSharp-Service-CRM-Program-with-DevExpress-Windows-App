@@ -1,0 +1,20 @@
+2018-04-26 20:02:32.9939 INFO 0 Güncelleme Ýþlemi
+2018-04-26 20:02:33.0180 ERROR Ionic.Zip.ZipException: Cannot read that as a ZipFile ---> Ionic.Zip.BadReadException: Could not read block - no data!  (position 0x00000000)
+   konum: Ionic.Zip.SharedUtilities._ReadFourBytes(Stream s, String message)
+   konum: Ionic.Zip.SharedUtilities.ReadInt(Stream s)
+   konum: Ionic.Zip.ZipFile.ReadFirstFourBytes(Stream s)
+   konum: Ionic.Zip.ZipFile.ReadIntoInstance(ZipFile zf)
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: Ionic.Zip.ZipFile.ReadIntoInstance(ZipFile zf)
+   konum: Ionic.Zip.ZipFile.Read(String fileName, TextWriter statusMessageWriter, Encoding encoding, EventHandler`1 readProgress)
+   konum: Ionic.Zip.ZipFile.Read(String fileName)
+   konum: Hizmet_MusMemnuniyet.Guncelleme.frmGuncelle.ProgramGuncelleBtn_Click(Object sender, EventArgs e) D:\FTH\Project\Windows\Hizmet Müþteri Memnuiyet Yönetimi\Hizmet Müþteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Hizmet_MusMemnuniyet\Guncelleme\frmGuncelle.cs içinde: satýr 84
+2018-04-26 22:59:13.5077 INFO 0 Güncelleme Ýþlemi
+2018-04-26 22:59:13.5563 ERROR System.UnauthorizedAccessException: 'D:\FTH\Project\Windows\Hizmet Müþteri Memnuiyet Yönetimi\Hizmet Müþteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Hizmet_MusMemnuniyet\bin\Debug\Hizmet_MusMemnuniyet.exe.PendingOverwrite' yoluna eriþim reddedildi.
+   konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalDelete(String path, Boolean checkHost)
+   konum: System.IO.File.Delete(String path)
+   konum: Ionic.Zip.ZipEntry.ReallyDelete(String fileName)
+   konum: Ionic.Zip.ZipEntry.InternalExtract(String baseDir, Stream outstream, String password)
+   konum: Ionic.Zip.ZipEntry.Extract(String baseDirectory, ExtractExistingFileAction extractExistingFile)
+   konum: Hizmet_MusMemnuniyet.Guncelleme.frmGuncelle.ProgramGuncelleBtn_Click(Object sender, EventArgs e)

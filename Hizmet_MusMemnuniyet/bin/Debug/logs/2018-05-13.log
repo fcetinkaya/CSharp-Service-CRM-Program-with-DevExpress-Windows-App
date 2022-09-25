@@ -1,0 +1,9 @@
+2018-05-13 00:45:15.7089 INFO 0 Güncelleme Ýþlemi
+2018-05-13 00:45:15.7250 ERROR System.IO.IOException: 'C:\Users\RUMHÝM\Downloads\Hizmet Müþteri Memnuiyet Yönetimi\Hizmet Müþteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Hizmet_MusMemnuniyet\bin\Debug\Hizmet_MusMemnuniyet.exe.tmp' dosyasý zaten var.
+   konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   konum: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   konum: System.IO.FileStream..ctor(String path, FileMode mode)
+   konum: Ionic.Zip.ZipEntry.InternalExtract(String baseDir, Stream outstream, String password)
+   konum: Ionic.Zip.ZipEntry.Extract(String baseDirectory, ExtractExistingFileAction extractExistingFile)
+   konum: Hizmet_MusMemnuniyet.Guncelleme.frmGuncelle.ProgramGuncelleBtn_Click(Object sender, EventArgs e) C:\Users\RUMHÝM\Downloads\Hizmet Müþteri Memnuiyet Yönetimi\Hizmet Müþteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Hizmet_MusMemnuniyet\Guncelleme\frmGuncelle.cs içinde: satýr 136

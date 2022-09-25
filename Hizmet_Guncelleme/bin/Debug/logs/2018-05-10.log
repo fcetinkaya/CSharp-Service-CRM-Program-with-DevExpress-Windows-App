@@ -1,0 +1,236 @@
+2018-05-10 00:01:54.4731 INFO -1 Güncelleme Modül Açýlýþ
+2018-05-10 00:01:54.5007 ERROR System.TypeInitializationException: 'System.Data.SqlClient.SqlConnection' tür baþlatýcýsý özel durum döndürdü. ---> System.TypeInitializationException: 'System.Data.SqlClient.SqlConnectionFactory' tür baþlatýcýsý özel durum döndürdü. ---> System.TypeInitializationException: 'System.Data.SqlClient.SqlPerformanceCounters' tür baþlatýcýsý özel durum döndürdü. ---> System.Configuration.ConfigurationErrorsException: Yapýlandýrma sistemi baþlatýlamadý ---> System.Configuration.ConfigurationErrorsException: Tanýnmayan yapýlandýrma bölümü: userSettings. (C:\Users\RUMHÝM\AppData\Local\Geliþimsoft_Yazýlým_Hizme\Hizmet_Guncelleme.vshost._Url_f1uxc1wwqwssbfbhzedpkigc0aehn4oy\1.0.0.0\user.config line 3)
+   konum: System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   konum: System.Configuration.BaseConfigurationRecord.ThrowIfParseErrors(ConfigurationSchemaErrors schemaErrors)
+   konum: System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   konum: System.Configuration.ClientConfigurationSystem.OnConfigRemoved(Object sender, InternalConfigEventArgs e)
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: System.Configuration.ConfigurationManager.PrepareConfigSystem()
+   konum: System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   konum: System.Configuration.PrivilegedConfigurationManager.GetSection(String sectionName)
+   konum: System.Diagnostics.DiagnosticsConfiguration.GetConfigSection()
+   konum: System.Diagnostics.DiagnosticsConfiguration.Initialize()
+   konum: System.Diagnostics.DiagnosticsConfiguration.get_SwitchSettings()
+   konum: System.Diagnostics.Switch.InitializeConfigSettings()
+   konum: System.Diagnostics.Switch.InitializeWithStatus()
+   konum: System.Diagnostics.Switch.get_SwitchSetting()
+   konum: System.Data.ProviderBase.DbConnectionPoolCounters..ctor(String categoryName, String categoryHelp)
+   konum: System.Data.SqlClient.SqlPerformanceCounters..ctor()
+   konum: System.Data.SqlClient.SqlPerformanceCounters..cctor()
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: System.Data.SqlClient.SqlConnectionFactory..cctor()
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: System.Data.SqlClient.SqlConnection..cctor()
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: System.Data.SqlClient.SqlConnection..ctor()
+   konum: System.Data.SqlClient.SqlConnection..ctor(String connectionString, SqlCredential credential)
+   konum: System.Data.SqlClient.SqlConnection..ctor(String connectionString)
+   konum: GuncellemeKontrol.cls_Checked.OptimusGeliyorKacin(String _strProgAdi)
+   konum: Hizmet_Guncelleme.frmGuncelle.frmGuncelle_Load(Object sender, EventArgs e) D:\FTH\Project\Windows\Hizmet Müþteri Memnuiyet Yönetimi\Hizmet Müþteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Hizmet_Guncelleme\frmGuncelle.cs içinde: satýr 36
+2018-05-10 00:07:26.2026 INFO -1 Güncelleme Modül Açýlýþ
+2018-05-10 00:07:26.2237 ERROR System.TypeInitializationException: 'System.Data.SqlClient.SqlConnection' tür baþlatýcýsý özel durum döndürdü. ---> System.TypeInitializationException: 'System.Data.SqlClient.SqlConnectionFactory' tür baþlatýcýsý özel durum döndürdü. ---> System.TypeInitializationException: 'System.Data.SqlClient.SqlPerformanceCounters' tür baþlatýcýsý özel durum döndürdü. ---> System.Configuration.ConfigurationErrorsException: Yapýlandýrma sistemi baþlatýlamadý ---> System.Configuration.ConfigurationErrorsException: Tanýnmayan yapýlandýrma bölümü: userSettings. (C:\Users\RUMHÝM\AppData\Local\Geliþimsoft_Yazýlým_Hizme\Hizmet_Guncelleme.vshost._Url_f1uxc1wwqwssbfbhzedpkigc0aehn4oy\1.0.0.0\user.config line 3)
+   konum: System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   konum: System.Configuration.BaseConfigurationRecord.ThrowIfParseErrors(ConfigurationSchemaErrors schemaErrors)
+   konum: System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   konum: System.Configuration.ClientConfigurationSystem.OnConfigRemoved(Object sender, InternalConfigEventArgs e)
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: System.Configuration.ConfigurationManager.PrepareConfigSystem()
+   konum: System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   konum: System.Configuration.PrivilegedConfigurationManager.GetSection(String sectionName)
+   konum: System.Diagnostics.DiagnosticsConfiguration.GetConfigSection()
+   konum: System.Diagnostics.DiagnosticsConfiguration.Initialize()
+   konum: System.Diagnostics.DiagnosticsConfiguration.get_SwitchSettings()
+   konum: System.Diagnostics.Switch.InitializeConfigSettings()
+   konum: System.Diagnostics.Switch.InitializeWithStatus()
+   konum: System.Diagnostics.Switch.get_SwitchSetting()
+   konum: System.Data.ProviderBase.DbConnectionPoolCounters..ctor(String categoryName, String categoryHelp)
+   konum: System.Data.SqlClient.SqlPerformanceCounters..ctor()
+   konum: System.Data.SqlClient.SqlPerformanceCounters..cctor()
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: System.Data.SqlClient.SqlConnectionFactory..cctor()
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: System.Data.SqlClient.SqlConnection..cctor()
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: System.Data.SqlClient.SqlConnection..ctor()
+   konum: System.Data.SqlClient.SqlConnection..ctor(String connectionString, SqlCredential credential)
+   konum: System.Data.SqlClient.SqlConnection..ctor(String connectionString)
+   konum: GuncellemeKontrol.cls_Checked.OptimusGeliyorKacin(String _strProgAdi)
+   konum: Hizmet_Guncelleme.frmGuncelle.frmGuncelle_Load(Object sender, EventArgs e) D:\FTH\Project\Windows\Hizmet Müþteri Memnuiyet Yönetimi\Hizmet Müþteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Hizmet_Guncelleme\frmGuncelle.cs içinde: satýr 36
+2018-05-10 00:10:01.1374 INFO -1 Güncelleme Ýþlemi
+2018-05-10 00:10:01.3735 ERROR Ionic.Zip.ZipException: Cannot read that as a ZipFile ---> Ionic.Zip.BadReadException: Could not read block - no data!  (position 0x00000000)
+   konum: Ionic.Zip.SharedUtilities._ReadFourBytes(Stream s, String message)
+   konum: Ionic.Zip.SharedUtilities.ReadInt(Stream s)
+   konum: Ionic.Zip.ZipFile.ReadFirstFourBytes(Stream s)
+   konum: Ionic.Zip.ZipFile.ReadIntoInstance(ZipFile zf)
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: Ionic.Zip.ZipFile.ReadIntoInstance(ZipFile zf)
+   konum: Ionic.Zip.ZipFile.Read(String fileName, TextWriter statusMessageWriter, Encoding encoding, EventHandler`1 readProgress)
+   konum: Ionic.Zip.ZipFile.Read(String fileName)
+   konum: Hizmet_Guncelleme.frmGuncelle.ProgramGuncelleBtn_Click(Object sender, EventArgs e) D:\FTH\Project\Windows\Hizmet Müþteri Memnuiyet Yönetimi\Hizmet Müþteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Hizmet_Guncelleme\frmGuncelle.cs içinde: satýr 134
+2018-05-10 00:10:45.6547 INFO -1 Güncelleme Ýþlemi
+2018-05-10 00:10:45.6547 ERROR Ionic.Zip.ZipException: Cannot read that as a ZipFile ---> Ionic.Zip.BadReadException: Could not read block - no data!  (position 0x00000000)
+   konum: Ionic.Zip.SharedUtilities._ReadFourBytes(Stream s, String message)
+   konum: Ionic.Zip.SharedUtilities.ReadInt(Stream s)
+   konum: Ionic.Zip.ZipFile.ReadFirstFourBytes(Stream s)
+   konum: Ionic.Zip.ZipFile.ReadIntoInstance(ZipFile zf)
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: Ionic.Zip.ZipFile.ReadIntoInstance(ZipFile zf)
+   konum: Ionic.Zip.ZipFile.Read(String fileName, TextWriter statusMessageWriter, Encoding encoding, EventHandler`1 readProgress)
+   konum: Ionic.Zip.ZipFile.Read(String fileName)
+   konum: Hizmet_Guncelleme.frmGuncelle.ProgramGuncelleBtn_Click(Object sender, EventArgs e) D:\FTH\Project\Windows\Hizmet Müþteri Memnuiyet Yönetimi\Hizmet Müþteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Hizmet_Guncelleme\frmGuncelle.cs içinde: satýr 134
+2018-05-10 00:11:13.3890 INFO -1 Güncelleme Ýþlemi
+2018-05-10 00:11:13.3890 ERROR Ionic.Zip.ZipException: Cannot read that as a ZipFile ---> Ionic.Zip.BadReadException: Could not read block - no data!  (position 0x00000000)
+   konum: Ionic.Zip.SharedUtilities._ReadFourBytes(Stream s, String message)
+   konum: Ionic.Zip.SharedUtilities.ReadInt(Stream s)
+   konum: Ionic.Zip.ZipFile.ReadFirstFourBytes(Stream s)
+   konum: Ionic.Zip.ZipFile.ReadIntoInstance(ZipFile zf)
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: Ionic.Zip.ZipFile.ReadIntoInstance(ZipFile zf)
+   konum: Ionic.Zip.ZipFile.Read(String fileName, TextWriter statusMessageWriter, Encoding encoding, EventHandler`1 readProgress)
+   konum: Ionic.Zip.ZipFile.Read(String fileName)
+   konum: Hizmet_Guncelleme.frmGuncelle.ProgramGuncelleBtn_Click(Object sender, EventArgs e) D:\FTH\Project\Windows\Hizmet Müþteri Memnuiyet Yönetimi\Hizmet Müþteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Hizmet_Guncelleme\frmGuncelle.cs içinde: satýr 134
+2018-05-10 00:11:51.4347 INFO -1 Güncelleme Modül Açýlýþ
+2018-05-10 00:11:51.4562 ERROR System.TypeInitializationException: 'System.Data.SqlClient.SqlConnection' tür baþlatýcýsý özel durum döndürdü. ---> System.TypeInitializationException: 'System.Data.SqlClient.SqlConnectionFactory' tür baþlatýcýsý özel durum döndürdü. ---> System.TypeInitializationException: 'System.Data.SqlClient.SqlPerformanceCounters' tür baþlatýcýsý özel durum döndürdü. ---> System.Configuration.ConfigurationErrorsException: Yapýlandýrma sistemi baþlatýlamadý ---> System.Configuration.ConfigurationErrorsException: Tanýnmayan yapýlandýrma bölümü: userSettings. (C:\Users\RUMHÝM\AppData\Local\Geliþimsoft_Yazýlým_Hizme\Hizmet_Guncelleme.vshost._Url_f1uxc1wwqwssbfbhzedpkigc0aehn4oy\1.0.0.0\user.config line 3)
+   konum: System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   konum: System.Configuration.BaseConfigurationRecord.ThrowIfParseErrors(ConfigurationSchemaErrors schemaErrors)
+   konum: System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   konum: System.Configuration.ClientConfigurationSystem.OnConfigRemoved(Object sender, InternalConfigEventArgs e)
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: System.Configuration.ConfigurationManager.PrepareConfigSystem()
+   konum: System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   konum: System.Configuration.PrivilegedConfigurationManager.GetSection(String sectionName)
+   konum: System.Diagnostics.DiagnosticsConfiguration.GetConfigSection()
+   konum: System.Diagnostics.DiagnosticsConfiguration.Initialize()
+   konum: System.Diagnostics.DiagnosticsConfiguration.get_SwitchSettings()
+   konum: System.Diagnostics.Switch.InitializeConfigSettings()
+   konum: System.Diagnostics.Switch.InitializeWithStatus()
+   konum: System.Diagnostics.Switch.get_SwitchSetting()
+   konum: System.Data.ProviderBase.DbConnectionPoolCounters..ctor(String categoryName, String categoryHelp)
+   konum: System.Data.SqlClient.SqlPerformanceCounters..ctor()
+   konum: System.Data.SqlClient.SqlPerformanceCounters..cctor()
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: System.Data.SqlClient.SqlConnectionFactory..cctor()
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: System.Data.SqlClient.SqlConnection..cctor()
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: System.Data.SqlClient.SqlConnection..ctor()
+   konum: System.Data.SqlClient.SqlConnection..ctor(String connectionString, SqlCredential credential)
+   konum: System.Data.SqlClient.SqlConnection..ctor(String connectionString)
+   konum: GuncellemeKontrol.cls_Checked.OptimusGeliyorKacin(String _strProgAdi)
+   konum: Hizmet_Guncelleme.frmGuncelle.frmGuncelle_Load(Object sender, EventArgs e) D:\FTH\Project\Windows\Hizmet Müþteri Memnuiyet Yönetimi\Hizmet Müþteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Hizmet_Guncelleme\frmGuncelle.cs içinde: satýr 36
+2018-05-10 00:12:31.5711 INFO -1 Güncelleme Modül Açýlýþ
+2018-05-10 00:12:31.5932 ERROR System.TypeInitializationException: 'System.Data.SqlClient.SqlConnection' tür baþlatýcýsý özel durum döndürdü. ---> System.TypeInitializationException: 'System.Data.SqlClient.SqlConnectionFactory' tür baþlatýcýsý özel durum döndürdü. ---> System.TypeInitializationException: 'System.Data.SqlClient.SqlPerformanceCounters' tür baþlatýcýsý özel durum döndürdü. ---> System.Configuration.ConfigurationErrorsException: Yapýlandýrma sistemi baþlatýlamadý ---> System.Configuration.ConfigurationErrorsException: Tanýnmayan yapýlandýrma bölümü: userSettings. (C:\Users\RUMHÝM\AppData\Local\Geliþimsoft_Yazýlým_Hizme\Hizmet_Guncelleme.vshost._Url_f1uxc1wwqwssbfbhzedpkigc0aehn4oy\1.0.0.0\user.config line 3)
+   konum: System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   konum: System.Configuration.BaseConfigurationRecord.ThrowIfParseErrors(ConfigurationSchemaErrors schemaErrors)
+   konum: System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   konum: System.Configuration.ClientConfigurationSystem.OnConfigRemoved(Object sender, InternalConfigEventArgs e)
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: System.Configuration.ConfigurationManager.PrepareConfigSystem()
+   konum: System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   konum: System.Configuration.PrivilegedConfigurationManager.GetSection(String sectionName)
+   konum: System.Diagnostics.DiagnosticsConfiguration.GetConfigSection()
+   konum: System.Diagnostics.DiagnosticsConfiguration.Initialize()
+   konum: System.Diagnostics.DiagnosticsConfiguration.get_SwitchSettings()
+   konum: System.Diagnostics.Switch.InitializeConfigSettings()
+   konum: System.Diagnostics.Switch.InitializeWithStatus()
+   konum: System.Diagnostics.Switch.get_SwitchSetting()
+   konum: System.Data.ProviderBase.DbConnectionPoolCounters..ctor(String categoryName, String categoryHelp)
+   konum: System.Data.SqlClient.SqlPerformanceCounters..ctor()
+   konum: System.Data.SqlClient.SqlPerformanceCounters..cctor()
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: System.Data.SqlClient.SqlConnectionFactory..cctor()
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: System.Data.SqlClient.SqlConnection..cctor()
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: System.Data.SqlClient.SqlConnection..ctor()
+   konum: System.Data.SqlClient.SqlConnection..ctor(String connectionString, SqlCredential credential)
+   konum: System.Data.SqlClient.SqlConnection..ctor(String connectionString)
+   konum: GuncellemeKontrol.cls_Checked.OptimusGeliyorKacin(String _strProgAdi)
+   konum: Hizmet_Guncelleme.frmGuncelle.frmGuncelle_Load(Object sender, EventArgs e) D:\FTH\Project\Windows\Hizmet Müþteri Memnuiyet Yönetimi\Hizmet Müþteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Hizmet_Guncelleme\frmGuncelle.cs içinde: satýr 36
+2018-05-10 00:14:31.8719 INFO -1 Güncelleme Modül Açýlýþ
+2018-05-10 00:14:31.8950 ERROR System.TypeInitializationException: 'System.Data.SqlClient.SqlConnection' tür baþlatýcýsý özel durum döndürdü. ---> System.TypeInitializationException: 'System.Data.SqlClient.SqlConnectionFactory' tür baþlatýcýsý özel durum döndürdü. ---> System.TypeInitializationException: 'System.Data.SqlClient.SqlPerformanceCounters' tür baþlatýcýsý özel durum döndürdü. ---> System.Configuration.ConfigurationErrorsException: Yapýlandýrma sistemi baþlatýlamadý ---> System.Configuration.ConfigurationErrorsException: Tanýnmayan yapýlandýrma bölümü: userSettings. (C:\Users\RUMHÝM\AppData\Local\Geliþimsoft_Yazýlým_Hizme\Hizmet_Guncelleme.vshost._Url_f1uxc1wwqwssbfbhzedpkigc0aehn4oy\1.0.0.0\user.config line 3)
+   konum: System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   konum: System.Configuration.BaseConfigurationRecord.ThrowIfParseErrors(ConfigurationSchemaErrors schemaErrors)
+   konum: System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   konum: System.Configuration.ClientConfigurationSystem.OnConfigRemoved(Object sender, InternalConfigEventArgs e)
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: System.Configuration.ConfigurationManager.PrepareConfigSystem()
+   konum: System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   konum: System.Configuration.PrivilegedConfigurationManager.GetSection(String sectionName)
+   konum: System.Diagnostics.DiagnosticsConfiguration.GetConfigSection()
+   konum: System.Diagnostics.DiagnosticsConfiguration.Initialize()
+   konum: System.Diagnostics.DiagnosticsConfiguration.get_SwitchSettings()
+   konum: System.Diagnostics.Switch.InitializeConfigSettings()
+   konum: System.Diagnostics.Switch.InitializeWithStatus()
+   konum: System.Diagnostics.Switch.get_SwitchSetting()
+   konum: System.Data.ProviderBase.DbConnectionPoolCounters..ctor(String categoryName, String categoryHelp)
+   konum: System.Data.SqlClient.SqlPerformanceCounters..ctor()
+   konum: System.Data.SqlClient.SqlPerformanceCounters..cctor()
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: System.Data.SqlClient.SqlConnectionFactory..cctor()
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: System.Data.SqlClient.SqlConnection..cctor()
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: System.Data.SqlClient.SqlConnection..ctor()
+   konum: System.Data.SqlClient.SqlConnection..ctor(String connectionString, SqlCredential credential)
+   konum: System.Data.SqlClient.SqlConnection..ctor(String connectionString)
+   konum: GuncellemeKontrol.cls_Checked.OptimusGeliyorKacin(String _strProgAdi)
+   konum: Hizmet_Guncelleme.frmGuncelle.frmGuncelle_Load(Object sender, EventArgs e) D:\FTH\Project\Windows\Hizmet Müþteri Memnuiyet Yönetimi\Hizmet Müþteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Hizmet_Guncelleme\frmGuncelle.cs içinde: satýr 36
+2018-05-10 00:17:22.4536 INFO -1 Güncelleme Modül Açýlýþ
+2018-05-10 00:17:22.4752 ERROR System.TypeInitializationException: 'System.Data.SqlClient.SqlConnection' tür baþlatýcýsý özel durum döndürdü. ---> System.TypeInitializationException: 'System.Data.SqlClient.SqlConnectionFactory' tür baþlatýcýsý özel durum döndürdü. ---> System.TypeInitializationException: 'System.Data.SqlClient.SqlPerformanceCounters' tür baþlatýcýsý özel durum döndürdü. ---> System.Configuration.ConfigurationErrorsException: Yapýlandýrma sistemi baþlatýlamadý ---> System.Configuration.ConfigurationErrorsException: Tanýnmayan yapýlandýrma bölümü: userSettings. (C:\Users\RUMHÝM\AppData\Local\Geliþimsoft_Yazýlým_Hizme\Hizmet_Guncelleme.vshost._Url_f1uxc1wwqwssbfbhzedpkigc0aehn4oy\1.0.0.0\user.config line 3)
+   konum: System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   konum: System.Configuration.BaseConfigurationRecord.ThrowIfParseErrors(ConfigurationSchemaErrors schemaErrors)
+   konum: System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   konum: System.Configuration.ClientConfigurationSystem.OnConfigRemoved(Object sender, InternalConfigEventArgs e)
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: System.Configuration.ConfigurationManager.PrepareConfigSystem()
+   konum: System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   konum: System.Configuration.PrivilegedConfigurationManager.GetSection(String sectionName)
+   konum: System.Diagnostics.DiagnosticsConfiguration.GetConfigSection()
+   konum: System.Diagnostics.DiagnosticsConfiguration.Initialize()
+   konum: System.Diagnostics.DiagnosticsConfiguration.get_SwitchSettings()
+   konum: System.Diagnostics.Switch.InitializeConfigSettings()
+   konum: System.Diagnostics.Switch.InitializeWithStatus()
+   konum: System.Diagnostics.Switch.get_SwitchSetting()
+   konum: System.Data.ProviderBase.DbConnectionPoolCounters..ctor(String categoryName, String categoryHelp)
+   konum: System.Data.SqlClient.SqlPerformanceCounters..ctor()
+   konum: System.Data.SqlClient.SqlPerformanceCounters..cctor()
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: System.Data.SqlClient.SqlConnectionFactory..cctor()
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: System.Data.SqlClient.SqlConnection..cctor()
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: System.Data.SqlClient.SqlConnection..ctor()
+   konum: System.Data.SqlClient.SqlConnection..ctor(String connectionString, SqlCredential credential)
+   konum: System.Data.SqlClient.SqlConnection..ctor(String connectionString)
+   konum: GuncellemeKontrol.cls_Checked.OptimusGeliyorKacin(String _strProgAdi)
+   konum: Hizmet_Guncelleme.frmGuncelle.frmGuncelle_Load(Object sender, EventArgs e) D:\FTH\Project\Windows\Hizmet Müþteri Memnuiyet Yönetimi\Hizmet Müþteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Hizmet_Guncelleme\frmGuncelle.cs içinde: satýr 36
+2018-05-10 01:07:08.7982 INFO -1 Güncelleme Modül Açýlýþ
+2018-05-10 01:07:08.8228 ERROR System.TypeInitializationException: 'System.Data.SqlClient.SqlConnection' tür baþlatýcýsý özel durum döndürdü. ---> System.TypeInitializationException: 'System.Data.SqlClient.SqlConnectionFactory' tür baþlatýcýsý özel durum döndürdü. ---> System.TypeInitializationException: 'System.Data.SqlClient.SqlPerformanceCounters' tür baþlatýcýsý özel durum döndürdü. ---> System.Configuration.ConfigurationErrorsException: Yapýlandýrma sistemi baþlatýlamadý ---> System.Configuration.ConfigurationErrorsException: Tanýnmayan yapýlandýrma bölümü: userSettings. (C:\Users\RUMHÝM\AppData\Local\Geliþimsoft_Yazýlým_Hizme\Hizmet_Guncelleme.vshost._Url_f1uxc1wwqwssbfbhzedpkigc0aehn4oy\1.0.0.0\user.config line 3)
+   konum: System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   konum: System.Configuration.BaseConfigurationRecord.ThrowIfParseErrors(ConfigurationSchemaErrors schemaErrors)
+   konum: System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   konum: System.Configuration.ClientConfigurationSystem.OnConfigRemoved(Object sender, InternalConfigEventArgs e)
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: System.Configuration.ConfigurationManager.PrepareConfigSystem()
+   konum: System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   konum: System.Configuration.PrivilegedConfigurationManager.GetSection(String sectionName)
+   konum: System.Diagnostics.DiagnosticsConfiguration.GetConfigSection()
+   konum: System.Diagnostics.DiagnosticsConfiguration.Initialize()
+   konum: System.Diagnostics.DiagnosticsConfiguration.get_SwitchSettings()
+   konum: System.Diagnostics.Switch.InitializeConfigSettings()
+   konum: System.Diagnostics.Switch.InitializeWithStatus()
+   konum: System.Diagnostics.Switch.get_SwitchSetting()
+   konum: System.Data.ProviderBase.DbConnectionPoolCounters..ctor(String categoryName, String categoryHelp)
+   konum: System.Data.SqlClient.SqlPerformanceCounters..ctor()
+   konum: System.Data.SqlClient.SqlPerformanceCounters..cctor()
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: System.Data.SqlClient.SqlConnectionFactory..cctor()
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: System.Data.SqlClient.SqlConnection..cctor()
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: System.Data.SqlClient.SqlConnection..ctor()
+   konum: System.Data.SqlClient.SqlConnection..ctor(String connectionString, SqlCredential credential)
+   konum: System.Data.SqlClient.SqlConnection..ctor(String connectionString)
+   konum: GuncellemeKontrol.cls_Checked.OptimusGeliyorKacin(String _strProgAdi)
+   konum: Hizmet_Guncelleme.frmGuncelle.frmGuncelle_Load(Object sender, EventArgs e) D:\FTH\Project\Windows\Hizmet Müþteri Memnuiyet Yönetimi\Hizmet Müþteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Hizmet_Guncelleme\frmGuncelle.cs içinde: satýr 36

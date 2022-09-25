@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HizmetCRMModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="HizmetCRM_Kullanicilar">
+    <Key>
+      <PropertyRef Name="KullaniciID" />
+    </Key>
+    <Property Name="KullaniciID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AdSoyad" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+    <Property Name="KullaniciAdi" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+    <Property Name="Sifre" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+    <Property Name="AnaKullanici" Type="Boolean" />
+    <Property Name="IsActive" Type="Boolean" />
+  </EntityType>
+  <EntityContainer Name="HizmetCRMEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="HizmetCRM_Kullanicilar" EntityType="Self.HizmetCRM_Kullanicilar" />
+    <EntitySet Name="HizmetCRM_Loglar" EntityType="HizmetCRMModel.HizmetCRM_Loglar" />
+    <EntitySet Name="HizmetCRM_AnaKategori" EntityType="HizmetCRMModel.HizmetCRM_AnaKategori" />
+    <EntitySet Name="HizmetCRM_Hizmetler" EntityType="HizmetCRMModel.HizmetCRM_Hizmetler" />
+    <EntitySet Name="HizmetCRM_Kategori" EntityType="HizmetCRMModel.HizmetCRM_Kategori" />
+    <EntitySet Name="HizmetCRM_Musteriler" EntityType="HizmetCRMModel.HizmetCRM_Musteriler" />
+    <EntitySet Name="HizmetCRM_Personel" EntityType="HizmetCRMModel.HizmetCRM_Personel" />
+    <EntitySet Name="HizmetCRM_ServisOlumlu" EntityType="HizmetCRMModel.HizmetCRM_ServisOlumlu" />
+    <EntitySet Name="HizmetCRM_ServisOlumsuz" EntityType="HizmetCRMModel.HizmetCRM_ServisOlumsuz" />
+    <EntitySet Name="HizmetCRM_Subeler" EntityType="HizmetCRMModel.HizmetCRM_Subeler" />
+    <EntitySet Name="HizmetCRM_YeniAnket" EntityType="HizmetCRMModel.HizmetCRM_YeniAnket" />
+  </EntityContainer>
+  <EntityType Name="HizmetCRM_Loglar">
+    <Key>
+      <PropertyRef Name="LogID" />
+    </Key>
+    <Property Name="LogID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Aciklama" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+    <Property Name="Modul" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+    <Property Name="KullaniciID" Type="Int32" />
+    <Property Name="Tarih" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="HizmetCRM_AnaKategori">
+    <Key>
+      <PropertyRef Name="AnaKategoriID" />
+    </Key>
+    <Property Name="AnaKategoriID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AnaAd" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="HizmetCRM_Hizmetler">
+    <Key>
+      <PropertyRef Name="HizmetID" />
+    </Key>
+    <Property Name="HizmetID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HizmetAdi" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="HizmetCRM_Kategori">
+    <Key>
+      <PropertyRef Name="KategoriID" />
+    </Key>
+    <Property Name="KategoriID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ad" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+    <Property Name="AnaKategoriID" Type="Int32" />
+    <Property Name="IsActive" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="HizmetCRM_Musteriler">
+    <Key>
+      <PropertyRef Name="MusteriID" />
+    </Key>
+    <Property Name="MusteriID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AdSoyad" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+    <Property Name="Meslek" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+    <Property Name="CepTlf" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+    <Property Name="SabitTlf" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+    <Property Name="Adres" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+    <Property Name="Eposta" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+    <Property Name="DogumTarihi" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+    <Property Name="Dogum" Type="Boolean" />
+    <Property Name="DogumAy" Type="Int32" />
+    <Property Name="DogumGun" Type="Int32" />
+    <Property Name="EvlilikTarihi" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+    <Property Name="Evlilik" Type="Boolean" />
+    <Property Name="EvlilikAy" Type="Int32" />
+    <Property Name="EvlilikGun" Type="Int32" />
+    <Property Name="IsActive" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="HizmetCRM_Personel">
+    <Key>
+      <PropertyRef Name="PersonID" />
+    </Key>
+    <Property Name="PersonID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PersonelAdi" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="SubeID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="HizmetCRM_ServisOlumlu">
+    <Key>
+      <PropertyRef Name="KategoriOlumluID" />
+    </Key>
+    <Property Name="KategoriOlumluID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AnketID" Type="Int32" />
+    <Property Name="KategoriID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="HizmetCRM_ServisOlumsuz">
+    <Key>
+      <PropertyRef Name="KategoriOlumsuzID" />
+    </Key>
+    <Property Name="KategoriOlumsuzID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AnketID" Type="Int32" />
+    <Property Name="KategoriID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="HizmetCRM_Subeler">
+    <Key>
+      <PropertyRef Name="SubeID" />
+    </Key>
+    <Property Name="SubeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SubeAdi" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="HizmetCRM_YeniAnket">
+    <Key>
+      <PropertyRef Name="AnketID" />
+    </Key>
+    <Property Name="AnketID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AnketTarih" Type="DateTime" />
+    <Property Name="AramaTarih" Type="DateTime" />
+    <Property Name="Numara" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+    <Property Name="AnketYorumu" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+    <Property Name="AnketRaporu" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+    <Property Name="GorusmeSonucu" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+    <Property Name="UlasimSecenegi" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+    <Property Name="SubeID" Type="Int32" />
+    <Property Name="PersonID" Type="Int32" />
+    <Property Name="MusteriID" Type="Int32" />
+    <Property Name="HizmetID" Type="Int32" />
+    <Property Name="IsActive" Type="Boolean" Nullable="false" />
+  </EntityType>
+</Schema>

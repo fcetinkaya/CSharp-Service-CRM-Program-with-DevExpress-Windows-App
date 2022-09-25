@@ -1,0 +1,20 @@
+2017-01-19 23:18:40.1646 INFO 0 Form Giriþi
+2017-01-19 23:18:40.2146 ERROR System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Hizmet_MusMemnuniyet.Formlar.frmFormGirisi.KategorSecimKayit(GridView IslemGrid, String Secenek, String Islem, Int32 _anketID) D:\FTH\Project\WÝNDOWS\Kendim\Hizmet Müþteri Memnuiyet Yönetimi\Hizmet Müþteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Hizmet_MusMemnuniyet\Formlar\frmFormGirisi.cs içinde: satýr 271
+   konum: Hizmet_MusMemnuniyet.Formlar.frmFormGirisi.KaydetBtn_Click(Object sender, EventArgs e) D:\FTH\Project\WÝNDOWS\Kendim\Hizmet Müþteri Memnuiyet Yönetimi\Hizmet Müþteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Hizmet_MusMemnuniyet\Formlar\frmFormGirisi.cs içinde: satýr 212
+2017-01-19 23:20:44.0784 INFO 0 Form Giriþi
+2017-01-19 23:20:44.0784 ERROR System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Hizmet_MusMemnuniyet.Formlar.frmFormGirisi.KategorSecimKayit(GridView IslemGrid, String Secenek, String Islem, Int32 _anketID) D:\FTH\Project\WÝNDOWS\Kendim\Hizmet Müþteri Memnuiyet Yönetimi\Hizmet Müþteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Hizmet_MusMemnuniyet\Formlar\frmFormGirisi.cs içinde: satýr 271
+   konum: Hizmet_MusMemnuniyet.Formlar.frmFormGirisi.KaydetBtn_Click(Object sender, EventArgs e) D:\FTH\Project\WÝNDOWS\Kendim\Hizmet Müþteri Memnuiyet Yönetimi\Hizmet Müþteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Hizmet_MusMemnuniyet\Formlar\frmFormGirisi.cs içinde: satýr 212
+2017-01-19 23:22:10.9255 INFO 0 Form Giriþi
+2017-01-19 23:22:10.9255 ERROR System.InvalidCastException: Belirtilen atama geçerli deðil.
+   konum: Hizmet_MusMemnuniyet.Formlar.frmFormGirisi.KategorSecimKayit(GridView IslemGrid, String Secenek, String Islem, Int32 _anketID)
+   konum: Hizmet_MusMemnuniyet.Formlar.frmFormGirisi.KaydetBtn_Click(Object sender, EventArgs e)
+2017-01-19 23:30:02.4053 INFO 0 Form Giriþi
+2017-01-19 23:30:02.4459 ERROR System.InvalidCastException: Belirtilen atama geçerli deðil.
+   konum: Hizmet_MusMemnuniyet.Formlar.frmFormGirisi.KategorSecimKayit(GridView IslemGrid, String Secenek, String Islem, Int32 _anketID) D:\FTH\Project\WÝNDOWS\Kendim\Hizmet Müþteri Memnuiyet Yönetimi\Hizmet Müþteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Hizmet_MusMemnuniyet\Formlar\frmFormGirisi.cs içinde: satýr 271
+   konum: Hizmet_MusMemnuniyet.Formlar.frmFormGirisi.KaydetBtn_Click(Object sender, EventArgs e) D:\FTH\Project\WÝNDOWS\Kendim\Hizmet Müþteri Memnuiyet Yönetimi\Hizmet Müþteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Hizmet_MusMemnuniyet\Formlar\frmFormGirisi.cs içinde: satýr 212
+2017-01-19 23:31:27.0974 INFO 0 Form Giriþi
+2017-01-19 23:31:27.0974 ERROR System.InvalidCastException: Belirtilen atama geçerli deðil.
+   konum: Hizmet_MusMemnuniyet.Formlar.frmFormGirisi.KategorSecimKayit(GridView IslemGrid, String Secenek, String Islem, Int32 _anketID)
+   konum: Hizmet_MusMemnuniyet.Formlar.frmFormGirisi.KaydetBtn_Click(Object sender, EventArgs e)

@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HizmetCRMModel.Store" Provider="System.Data.SQLite.EF6" ProviderManifestToken="data source=&quot;D:\FTH\Project\Windows\Hizmet Müşteri Memnuiyet Yönetimi\Hizmet Müşteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Hizmet_MusMemnuniyet\bin\Debug\Data\HizmetCRM.db3&quot;" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="HizmetCRM_AnaKategori">
+    <Key>
+      <PropertyRef Name="AnaKategoriID" />
+    </Key>
+    <Property Name="AnaKategoriID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AnaAd" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="HizmetCRM_Hizmetler">
+    <Key>
+      <PropertyRef Name="HizmetID" />
+    </Key>
+    <Property Name="HizmetID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="HizmetAdi" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="HizmetCRM_Kategori">
+    <Key>
+      <PropertyRef Name="KategoriID" />
+    </Key>
+    <Property Name="KategoriID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ad" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="AnaKategoriID" Type="int" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="HizmetCRM_Kullanicilar">
+    <Key>
+      <PropertyRef Name="KullaniciID" />
+    </Key>
+    <Property Name="KullaniciID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AdSoyad" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="KullaniciAdi" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="Sifre" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="AnaKullanici" Type="bit" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="HizmetCRM_Loglar">
+    <Key>
+      <PropertyRef Name="LogID" />
+    </Key>
+    <Property Name="LogID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Aciklama" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="Modul" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="KullaniciID" Type="int" />
+    <Property Name="Tarih" Type="datetime" />
+  </EntityType>
+  <EntityType Name="HizmetCRM_Musteriler">
+    <Key>
+      <PropertyRef Name="MusteriID" />
+    </Key>
+    <Property Name="MusteriID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AdSoyad" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="Meslek" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="CepTlf" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="SabitTlf" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="Adres" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="Eposta" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="DogumTarihi" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="Dogum" Type="bit" />
+    <Property Name="DogumAy" Type="int" />
+    <Property Name="DogumGun" Type="int" />
+    <Property Name="EvlilikTarihi" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="Evlilik" Type="bit" />
+    <Property Name="EvlilikAy" Type="int" />
+    <Property Name="EvlilikGun" Type="int" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="HizmetCRM_Personel">
+    <Key>
+      <PropertyRef Name="PersonID" />
+    </Key>
+    <Property Name="PersonID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PersonelAdi" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="SubeID" Type="int" />
+  </EntityType>
+  <EntityType Name="HizmetCRM_ServisOlumlu">
+    <Key>
+      <PropertyRef Name="KategoriOlumluID" />
+    </Key>
+    <Property Name="KategoriOlumluID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AnketID" Type="int" />
+    <Property Name="KategoriID" Type="int" />
+  </EntityType>
+  <EntityType Name="HizmetCRM_ServisOlumsuz">
+    <Key>
+      <PropertyRef Name="KategoriOlumsuzID" />
+    </Key>
+    <Property Name="KategoriOlumsuzID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AnketID" Type="int" />
+    <Property Name="KategoriID" Type="int" />
+  </EntityType>
+  <EntityType Name="HizmetCRM_Subeler">
+    <Key>
+      <PropertyRef Name="SubeID" />
+    </Key>
+    <Property Name="SubeID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SubeAdi" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="HizmetCRM_YeniAnket">
+    <Key>
+      <PropertyRef Name="AnketID" />
+    </Key>
+    <Property Name="AnketID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AnketTarih" Type="datetime" />
+    <Property Name="AramaTarih" Type="datetime" />
+    <Property Name="Numara" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="AnketYorumu" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="AnketRaporu" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="GorusmeSonucu" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="UlasimSecenegi" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="SubeID" Type="int" />
+    <Property Name="PersonID" Type="int" />
+    <Property Name="MusteriID" Type="int" />
+    <Property Name="HizmetID" Type="int" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'main.Hizmetcrm_FormView' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Hizmetcrm_FormView">
+    <Key>
+      <PropertyRef Name="KategoriID" />
+    </Key>
+    <Property Name="KategoriID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ad" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="AnaAd" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityContainer Name="HizmetCRMModelStoreContainer">
+    <EntitySet Name="HizmetCRM_AnaKategori" EntityType="Self.HizmetCRM_AnaKategori" store:Type="Tables" />
+    <EntitySet Name="HizmetCRM_Hizmetler" EntityType="Self.HizmetCRM_Hizmetler" store:Type="Tables" />
+    <EntitySet Name="HizmetCRM_Kategori" EntityType="Self.HizmetCRM_Kategori" store:Type="Tables" />
+    <EntitySet Name="HizmetCRM_Kullanicilar" EntityType="Self.HizmetCRM_Kullanicilar" store:Type="Tables" />
+    <EntitySet Name="HizmetCRM_Loglar" EntityType="Self.HizmetCRM_Loglar" store:Type="Tables" />
+    <EntitySet Name="HizmetCRM_Musteriler" EntityType="Self.HizmetCRM_Musteriler" store:Type="Tables" />
+    <EntitySet Name="HizmetCRM_Personel" EntityType="Self.HizmetCRM_Personel" store:Type="Tables" />
+    <EntitySet Name="HizmetCRM_ServisOlumlu" EntityType="Self.HizmetCRM_ServisOlumlu" store:Type="Tables" />
+    <EntitySet Name="HizmetCRM_ServisOlumsuz" EntityType="Self.HizmetCRM_ServisOlumsuz" store:Type="Tables" />
+    <EntitySet Name="HizmetCRM_Subeler" EntityType="Self.HizmetCRM_Subeler" store:Type="Tables" />
+    <EntitySet Name="HizmetCRM_YeniAnket" EntityType="Self.HizmetCRM_YeniAnket" store:Type="Tables" />
+    <EntitySet Name="Hizmetcrm_FormView" EntityType="Self.Hizmetcrm_FormView" store:Type="Views">
+      <DefiningQuery>SELECT 
+[Hizmetcrm_FormView].[KategoriID] AS [KategoriID], 
+[Hizmetcrm_FormView].[Ad] AS [Ad], 
+[Hizmetcrm_FormView].[AnaAd] AS [AnaAd], 
+[Hizmetcrm_FormView].[IsActive] AS [IsActive]
+FROM [Hizmetcrm_FormView] AS [Hizmetcrm_FormView]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

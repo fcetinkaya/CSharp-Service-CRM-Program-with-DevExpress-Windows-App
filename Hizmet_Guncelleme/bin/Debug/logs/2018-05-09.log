@@ -1,0 +1,16 @@
+2018-05-09 23:53:34.9461 INFO -1 Güncelleme Modül Açýlýþ
+2018-05-09 23:53:34.9707 ERROR System.IO.FileNotFoundException: 'D:\FTH\Project\Windows\Hizmet Müþteri Memnuiyet Yönetimi\Hizmet Müþteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Hizmet_Guncelleme\bin\Debug\Guncelleme.xml' dosyasý bulunamadý.
+Dosya adý: 'D:\FTH\Project\Windows\Hizmet Müþteri Memnuiyet Yönetimi\Hizmet Müþteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Hizmet_Guncelleme\bin\Debug\Guncelleme.xml'
+   konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   konum: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   konum: System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   konum: System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   konum: System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   konum: System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   konum: System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   konum: System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   konum: System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   konum: System.Xml.Linq.XDocument.Load(String uri)
+   konum: Hizmet_Guncelleme.frmGuncelle.xmlVeriOku() D:\FTH\Project\Windows\Hizmet Müþteri Memnuiyet Yönetimi\Hizmet Müþteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Hizmet_Guncelleme\frmGuncelle.cs içinde: satýr 72
+   konum: Hizmet_Guncelleme.frmGuncelle.frmGuncelle_Load(Object sender, EventArgs e) D:\FTH\Project\Windows\Hizmet Müþteri Memnuiyet Yönetimi\Hizmet Müþteri Memnuiyet Yönetimi_Kodlar\Hizmet_MusMemnuniyet\Hizmet_Guncelleme\frmGuncelle.cs içinde: satýr 33
